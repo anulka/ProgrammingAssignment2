@@ -2,7 +2,7 @@
 
 ## As matrix inversion is usually costly to compute,
 ## there is a lot of benefit to cache it rather than 
-## compute it again.
+## compute it again (if matrix has not changed).
  
 
 ## This function creates a special "matrix" object
